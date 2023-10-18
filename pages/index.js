@@ -1,3 +1,5 @@
+import Hero from "@/components/Hero"
+import Layout from "@/components/Layout"
 import Head from "next/head"
 
 const Home = () => {
@@ -6,9 +8,9 @@ const Home = () => {
       <Head>
         <title>Harmony</title>
       </Head>
-      <div>
-        <h1 className="text-xl">Harmony</h1>
-      </div>
+      <Layout>
+        <Hero />
+      </Layout>
     </>
   )
 }
