@@ -4,5 +4,5 @@
 
 
 html, body {
-    @apply bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white;
+    @apply bg-gray-800 text-white;
 }
